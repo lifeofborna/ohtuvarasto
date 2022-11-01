@@ -57,7 +57,8 @@ class TestVarasto(unittest.TestCase):
         varasto = Varasto(-23)
 
         self.assertAlmostEqual(varasto.tilavuus,0)
-    
+
+    #    
     def test_tarkista_alku_saldo_virheellinen(self):
         varasto = Varasto(0, alku_saldo=-50)
 
